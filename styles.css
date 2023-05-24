@@ -1,0 +1,47 @@
+
+
+body {
+    background: rgb(230, 205, 173);
+    color: darkblue;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    background: crimson;
+    margin-right: 80px;
+}
+
+p {
+    font-family: 'georgia', serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+    color: brown;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    .column {
+        flex: 100%;
+    }
+}
+
